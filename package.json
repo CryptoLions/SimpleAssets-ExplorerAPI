@@ -1,0 +1,31 @@
+{
+  "name": "dplace-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js",
+    "start:dev": "pm2-runtime start dev.ecosystem.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "eosjs": "^16.0.9",
+    "express": "^4.16.4",
+    "fcbuffer": "^2.2.2",
+    "helmet": "^3.15.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.10",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "slack": "^11.0.1",
+    "socket.io": "^2.2.0",
+    "swagger-jsdoc": "^3.5.0"
+  }
+}
