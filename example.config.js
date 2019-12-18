@@ -5,7 +5,6 @@ let config = {};
 
 config.host = 'http://localhost:3045';
 
-config.market = 'simplemarket';
 config.assets = 'simpleassets';
 
 // mongo uri and options
