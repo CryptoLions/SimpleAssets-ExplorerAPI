@@ -25,7 +25,7 @@
     "path": "^0.12.7",
     "request": "^2.88.0",
     "slack": "^11.0.1",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "swagger-jsdoc": "^3.5.0"
   }
 }
